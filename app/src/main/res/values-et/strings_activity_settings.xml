@@ -1,0 +1,27 @@
+<resources>
+    <string name="title_activity_settings">Seaded</string>
+
+    <string name="pref_header_general">Üldist</string>
+
+    <string name="pref_title_sync_frequency">Sünkroniseerimise sagedus</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>5 sekundit</item>
+        <item>15 sekundit</item>
+        <item>30 sekundit</item>
+        <item>1 minut</item>
+        <item>15 minutit</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>900</item>
+    </string-array>
+
+    <string name="device_uuid">Seadme ID</string>
+    <string name="version">0.1.0</string>
+
+</resources>

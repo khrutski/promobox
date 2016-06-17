@@ -1,0 +1,27 @@
+<resources>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="pref_header_general">Общее</string>
+
+    <string name="pref_title_sync_frequency">Частота синхронизации</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>5 сек</item>
+        <item>15 сек</item>
+        <item>30 сек</item>
+        <item>1 мин</item>
+        <item>15 мин</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>900</item>
+    </string-array>
+
+    <string name="device_uuid">Идентификатор устройства</string>
+    <string name="version">0.1.0</string>
+
+</resources>

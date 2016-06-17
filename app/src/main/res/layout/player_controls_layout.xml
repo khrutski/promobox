@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_controls"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/main_activity_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_status_loading"
+        android:textSize="18sp"
+        android:gravity="center_horizontal|top"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/audio_player_buttons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/player_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_previous" />
+
+        <Button
+            android:id="@+id/player_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pause" />
+
+        <Button
+            android:id="@+id/player_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_next" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/seekBar_layout"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/player_time_elapsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/player_unknown_time"
+            android:textSize="18sp"
+            android:layout_weight="2"
+            />
+
+        <SeekBar
+            android:id="@+id/audio_seekBar"
+            android:layout_weight="1"
+            android:minHeight="7dp"
+            android:maxHeight="7dp"
+            android:minWidth="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/player_time_full"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/player_unknown_time"
+            android:textSize="18sp"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/player_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/settings_btn"
+        android:layout_margin="15sp" />
+
+</RelativeLayout>

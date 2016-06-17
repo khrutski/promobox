@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2b2e31">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device settings"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:textSize="20sp"
+            android:paddingLeft="5sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:weightSum="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Server"
+                    android:textSize="20sp"
+                    android:id="@+id/serverUrlLabel"
+                    android:layout_marginLeft="10sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/serverUrl"
+                    android:layout_marginStart="33dp"
+                    android:text="https://api.promobox.ee"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/serverUrlLabel"
+                    android:layout_weight="0.86"
+                    android:maxLines="1" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:weightSum="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device"
+                    android:textSize="20sp"
+                    android:id="@+id/deviceIdLabel"
+                    android:layout_marginLeft="10sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/settings_device_id"
+                    android:layout_marginStart="33dp"
+                    android:maxLength="6"
+                    android:text="fail"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/deviceIdLabel"
+                    android:layout_weight="0.86"
+                    android:lines="1"
+                    android:maxLines="1" />
+            </TableRow>
+
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:id="@+id/settings_save_btn"
+                android:textColor="@color/myYellowButtonColor"
+                android:layout_marginRight="5sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </TableLayout>

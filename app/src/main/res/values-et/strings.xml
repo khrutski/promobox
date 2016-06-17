@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PromoBoxAndroid</string>
+    <string name="title_activity_main">PromoBox</string>
+    <string name="action_settings">Seaded</string>
+    <string name="service_name">MainService</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="quit"></string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="main_activity_title_promo">Promo</string>
+    <string name="main_activity_title_box">Box</string>
+    <string name="main_activity_status_loading">laadin...</string>
+    <string name="silent_mode">Silent mode</string>
+    <string name="silent_mode_summary">No Toasts will be shown</string>
+    <string name="device_id">Seade ID:</string>
+    <string name="enter_device_id">Sisesta seadme ID. Seda saab leida saidil Seadmete all</string>
+    <string name="enter_uuid_button_txt">Jatka</string>
+    <string name="player_unknown_time">00:00</string>
+    <string name="no_active_campaigns">HETKEL PUUDUB AKTIIVNE KAMPAANIA</string>
+    <string name="network_ethernet">LAN Cable</string>
+    <string name="network_wifi">WLAN</string>
+    <string name="title_activity_wifi">Vali võrk</string>
+
+    <string name="network_disconnected">Ei ole ühendatud</string>
+    <string name="network_connected">ÜHENDATUD</string>
+    <string name="network_connecting">Ühendan...</string>
+
+    <string name="cancel">Tühista</string>
+    <string name="connect">Ühedna</string>
+    <string name="signal_strength">Signaali tugevus</string>
+    <string name="security">Turvalisus</string>
+    <string name="password">Salasõna</string>
+    <string name="show_password">Naita salasõna</string>
+
+    <string name="signal_strength_low">Halb</string>
+    <string name="signal_strength_weak">Nõrk</string>
+    <string name="signal_strength_medium">Keskmine</string>
+    <string name="signal_strength_normal">Hea</string>
+    <string name="signal_strength_strong">Tugev</string>
+    <string name="pref_monitor_id">Monitori ID</string>
+    <string name="skip">Jata vahele</string>
+    <string name="web_page_loading">Loading page..</string>
+</resources>

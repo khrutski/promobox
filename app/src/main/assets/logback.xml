@@ -1,0 +1,37 @@
+<configuration>
+    <appender
+        name="LOGCAT"
+        class="ch.qos.logback.classic.android.LogcatAppender" >
+        <tagEncoder>
+            <pattern>%logger{0}</pattern>
+        </tagEncoder>
+        <encoder>
+            <pattern>[ %thread ] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <property name="LOG_DIR" value="/mnt/internal_sd/promobox/" />
+
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- active log file -->
+        <prudent>true</prudent>
+
+        <file>${LOG_DIR}/promobox.log</file>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/promobox.%d.log</fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+
+
+    <root level="DEBUG" >
+        <appender-ref ref="LOGCAT" />
+        <appender-ref ref="file" />
+    </root>
+</configuration>

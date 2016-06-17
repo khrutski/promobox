@@ -1,0 +1,46 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="black_background">#000000</color>
+
+
+    <color name="primaryColor">#FFFFFF</color>
+    <color name="primaryColorDark">#FFFFFF</color>
+
+    <!--radioButton-->
+    <color name="accentColor">#F9CF3B</color>
+    <!--radioButton text-->
+    <color name="abc_primary_text_disable_only_material_dark">#BBFFFFFF</color>
+
+    <color name="focusedHighlight">#F42337</color>
+    <color name="abc_secondary_text_material_dark">#BBFFFFFF</color>
+
+
+
+    <color name="myYellowButtonColor">#F9CF3B</color>
+    <color name="myDisabledButtonColor">#1CFFFFFF</color>
+
+
+    <!--Text color-->
+    <color name="abc_primary_text_material_dark">#AA9000</color>
+
+
+    <color name="background_material_dark">#212121</color>
+    <color name="bright_foreground_material_dark">#AA00BB</color>
+    <color name="bright_foreground_material_light">#AA00BB</color>
+    <color name="abc_background_cache_hint_selector_material_dark">#F42337</color>
+    <color name="abc_primary_text_material_light">#AAFFFF</color>
+    <color name="abc_secondary_text_material_light">#AA00BB</color>
+    <color name="hint_foreground_material_dark">#AA00BB</color>
+    <color name="hint_foreground_material_light">#AA00BB</color>
+    <color name="highlighted_text_material_dark">#AA00BB</color>
+    <color name="link_text_material_dark">#AA00BB</color>
+    <color name="background_material_light">#AA00BB</color>
+    <color name="abc_background_cache_hint_selector_material_light">#AA00BB</color>
+    <color name="ripple_material_light">#AA00BB</color>
+    <color name="button_material_light">#AA00BB</color>
+    <color name="button_material_dark">#AA00BB</color>
+
+
+</resources>
